@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: linear-gradient(to right, rgba(133, 0, 0, 0.959), #00446e); */
+
+}
+
+.card {
+    margin-bottom:10%;
+    border: none;
+    margin-top: 8%;
+   
+}
+
+.box {
+
+    padding: 1rem;
+    background: #004541;
+    text-align: center;
+    transition: 0.25s;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+
+.inputs
+ {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #807100;
+    padding: 10px 10px;
+    width: 60%;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    transition: 0.25s
+}
+
+
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 50;
+    border-color: #2ecc71
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71
+}
+
+.likes {
+    visibility: hidden;
+    display: none;
+}
+.dislikes{
+    visibility: hidden;
+    display: none;
+}
