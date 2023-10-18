@@ -39,7 +39,7 @@ export default function Signin() {
   // Handling the form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let response = await axios.post("http://localhost:7000/register", {
+    let response = await axios.post("https://blogify-pw10.onrender.com/register", {
       email: user.email,
       password: user.password,
       name: user.name,

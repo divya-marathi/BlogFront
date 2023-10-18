@@ -21,7 +21,7 @@ function Login() {
   const handleSubmit = async(event) => {
     //Prevent page reload
     event.preventDefault();
-    let response=await axios.post('http://localhost:7000/login',{email:user.email,password:user.password})
+    let response=await axios.post('https://blogify-pw10.onrender.com/login',{email:user.email,password:user.password})
     if(response.status==202){
       alert('login success')
     }

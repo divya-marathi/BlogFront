@@ -21,7 +21,7 @@ const dispatch=useDispatch()
   });
 
   const FetchAllBlog = async () => {
-    await axios.get("http://localhost:7000/blog").then((res) => {
+    await axios.get("https://blogify-pw10.onrender.com/blog").then((res) => {
       setAllBlog(res.data);
     });
   };

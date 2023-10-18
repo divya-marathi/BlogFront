@@ -41,7 +41,7 @@ const BlogDetails = () => {
     alert("Blog is updated!");
 
     await axios
-      .post("http://localhost:7000/blog/update", {
+      .post("https://blogify-pw10.onrender.com/update", {
         id: book.id,
         title: inputBook.title,
         description: inputBook.description,

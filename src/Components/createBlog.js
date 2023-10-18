@@ -23,7 +23,7 @@ const navigate = useNavigate()
   const inputHandler = (e) => {
     setInputBook({
       ...inputBook,
-      [e.target.date]: e.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -44,7 +44,7 @@ if(inputBook.description===""){
 
 
     await axios
-      .post("http://localhost:7000/blog/create", {
+      .post("https://blogify-pw10.onrender.com/blog/create", {
         title: inputBook.title,
         img: inputBook.img,
         description: inputBook.description,
